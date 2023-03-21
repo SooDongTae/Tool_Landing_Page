@@ -1,4 +1,4 @@
-export const PageOne = () => {
+export const FirstPage = () => {
   return (
     <div className="w-full h-screen bg-bgBlue flex items-center flex-col">
       <div className="w-full h-2/5 flex flex-col justify-center items-center">
