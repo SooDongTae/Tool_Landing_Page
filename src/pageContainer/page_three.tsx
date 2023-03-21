@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import createImg from "../../public/assets/images/createImg.png";
-import partImg from "../../public/assets/images/partImg.png";
 
 const Page_three = () => {
   return (
@@ -12,12 +11,14 @@ const Page_three = () => {
         <br /> 이런 <span className="text-green">공동구매</span> 해보셨나요?
       </h1>
       <div className="w-[70%] h-[70%] flex flex-col items-center justify-start ml-[15%]">
-        <div className="w-full h-[10%] flex flex-row items-center justify-start mt-[5%]">
+        <div className="w-full h-[10%] flex flex-row items-center justify-start mt-[10%]">
           <Image src={createImg} alt="" />
-          <span className="text-green text-2xl ml-[2%]">등록하기</span>
+          <span className="text-green text-2xl ml-[2%] cursor-pointer">
+            등록하기
+          </span>
         </div>
-        <div className="w-full h-[50%] flex flex-row items-center mt-[3%]">
-          <div className="w-[45%] h-full flex flex-col items-start justify-between">
+        <div className="w-full h-[60%] flex flex-row items-center mt-[3%]">
+          <div className="w-[45%] h-3/4 flex flex-col items-start justify-between">
             <h2 className="text-4xl">
               쉬운 공동구매 등록으로,
               <br />
