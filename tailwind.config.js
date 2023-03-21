@@ -6,7 +6,17 @@ module.exports = {
     "./src/components/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["GmarketSansMedium"],
+      },
+    },
+    colors: {
+      green: "#20c997",
+      bgBlue: "#E1F5FE",
+      textGray: "#777777",
+    },
   },
+
   plugins: [],
 };
