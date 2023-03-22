@@ -13,18 +13,18 @@ const Page_three = () => {
       <div className="w-[70%] h-[70%] flex flex-col items-center justify-start ml-[15%]">
         <div className="w-full h-[10%] flex flex-row items-center justify-start mt-[10%]">
           <Image src={createImg} alt="" />
-          <span className="text-green text-2xl ml-[2%] cursor-pointer">
+          <span className="text-green text-3xl ml-[2%] cursor-pointer">
             등록하기
           </span>
         </div>
-        <div className="w-full h-[60%] flex flex-row items-center mt-[3%]">
+        <div className="w-full h-[60%] flex flex-row items-center justify-between mt-[3%]">
           <div className="w-[45%] h-3/4 flex flex-col items-start justify-between">
-            <h2 className="text-4xl">
+            <h2 className="text-5xl">
               쉬운 공동구매 등록으로,
               <br />
               사람을 모집 할 수 있어요
             </h2>
-            <p className="text-2xl text-textGray">
+            <p className="text-3xl text-textGray">
               사고싶은 물건이 있다면,
               <br />
               Tool과 함께 공동구매에 참여하세요.
