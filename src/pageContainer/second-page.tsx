@@ -1,7 +1,7 @@
 export const SecondPage = () => {
   return (
     <div className="w-full h-screen flex justify-center items-center">
-      <div className="w-[80%] h-[90%] flex flex-row items-end justify-between">
+      <div className="w-[70%] h-[90%] flex flex-row items-end justify-between">
         <div className="w-[45%] h-full">
           <span className="w-full h-1/2 text-6xl font-bold tracking-wide leading-[3.5rem] flex flex-col justify-around">
             공동구매,
