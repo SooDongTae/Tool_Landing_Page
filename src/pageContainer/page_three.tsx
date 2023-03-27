@@ -4,13 +4,13 @@ import createImg from "../../public/assets/images/createImg.png";
 
 const Page_three = () => {
   return (
-    <div className="w-full h-screen bg-bgBlue flex flex-col">
-      <h1 className="text-black text-6xl ml-40 pt-32 font-bold">
+    <div className="w-full h-screen bg-bgBlue flex flex-col items-center">
+      <h1 className="w-[70%] text-black text-6xl pt-32 font-bold">
         쉽고 빠르게
         <br /> 등록부터 참여까지
         <br /> 이런 <span className="text-green">공동구매</span> 해보셨나요?
       </h1>
-      <div className="w-[70%] h-[70%] flex flex-col items-center justify-start ml-[15%]">
+      <div className="w-[70%] h-[70%] flex flex-col items-center justify-start">
         <div className="w-full h-[10%] flex flex-row items-center justify-start mt-[10%]">
           <Image src={createImg} alt="" />
           <span className="text-green text-3xl ml-[2%] cursor-pointer">
