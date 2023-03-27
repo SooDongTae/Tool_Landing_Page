@@ -15,7 +15,7 @@ const page_four = () => {
         <div className="w-full h-[52%] flex flex-row items-center justify-between mt-[3%]">
           <div className="w-[45%] h-full bg-[white] shadow-[0px_4px_30px_rgba(0,_0,_0,_0.25)]"></div>
           <div className="w-[45%] h-3/4 flex flex-col items-start justify-between">
-            <h2 className="text-5xl">
+            <h2 className="text-[2.75rem]">
               빠른 공동구매 참여로,
               <br />
               공동구매에 편리함을
