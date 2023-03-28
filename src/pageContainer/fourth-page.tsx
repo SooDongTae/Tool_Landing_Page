@@ -20,7 +20,7 @@ const page_four = () => {
               <br />
               공동구매에 편리함을
             </h2>
-            <p className="text-3xl text-textGray">
+            <p className="text-3xl text-textGray whitespace-nowrap">
               사고싶은 물건이 있다면,
               <br />
               Tool에서 사람들을 찾아보세요.

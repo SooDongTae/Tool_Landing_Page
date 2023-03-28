@@ -24,7 +24,7 @@ const Page_three = () => {
               <br />
               사람을 모집 할 수 있어요
             </h2>
-            <p className="text-3xl text-textGray">
+            <p className="text-3xl text-textGray whitespace-nowrap">
               사고싶은 물건이 있다면,
               <br />
               Tool과 함께 공동구매에 참여하세요.
