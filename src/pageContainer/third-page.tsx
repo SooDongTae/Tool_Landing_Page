@@ -19,7 +19,7 @@ const Page_three = () => {
         </div>
         <div className="w-full h-[60%] flex flex-row items-center justify-between mt-[3%]">
           <div className="w-[45%] h-3/4 flex flex-col items-start justify-between">
-            <h2 className="text-[2.75rem]">
+            <h2 className="text-[2.75rem] whitespace-nowrap">
               쉬운 공동구매 등록으로,
               <br />
               사람을 모집 할 수 있어요
