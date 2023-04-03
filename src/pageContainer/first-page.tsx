@@ -10,7 +10,7 @@ export const FirstPage = () => {
           원하는 플랫폼을 제공합니다.
         </div>
       </div>
-      <div className="w-[70%] h-[50%] grid grid-cols-3 gap-[3rem] ">
+      <div className="w-[70%] h-[50%] grid lg:grid-cols-3 gap-[3rem] md:grid-cols-1 ">
         <div className="bg-[white] shadow-[0px_4px_30px_rgba(0,_0,_0,_0.25)]"></div>
         <div className="bg-[white] shadow-[0px_4px_30px_rgba(0,_0,_0,_0.25)]"></div>
         <div className="bg-[white] shadow-[0px_4px_30px_rgba(0,_0,_0,_0.25)]"></div>
