@@ -10,8 +10,50 @@
 }
 
 @font-face {
-  font-family: 'BMHANNAPro';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff') format('woff');
+  font-family: "BMHANNAPro";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+.media-linebreak {
+  @apply lg:whitespace-nowrap sm:break-words;
+}
+
+.box-shadow {
+  @apply shadow-[0px_4px_30px_rgba(0,_0,_0,_0.25)];
+}
+
+.full-screen {
+  @apply w-screen h-screen;
+}
+
+.second-imgbox {
+  @apply lg:w-[45%] lg:h-4/5 box-shadow sm:w-full sm:h-full;
+}
+
+.second-infobox {
+  @apply lg:w-[45%] h-full flex flex-col sm:items-center sm:justify-center lg:items-start  lg:justify-start sm:w-full;
+}
+
+@media all and (min-width: 1024px) {
+  body,
+  html {
+    font-size: 16px;
   }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  body,
+  html {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  body,
+  html {
+    font-size: 10px;
+  }
+}

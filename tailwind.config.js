@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         sans: ["GmarketSansMedium"],
       },
+      screens: {
+        sm: "300px",
+      },
     },
     colors: {
       green: "#20c997",
