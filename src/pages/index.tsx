@@ -11,7 +11,7 @@ export default function Home() {
       <FirstPage />
       <SecondPage />
       <Page_three />
-      <Page_four />
+      {/* <Page_four /> */}
     </>
   );
 }
