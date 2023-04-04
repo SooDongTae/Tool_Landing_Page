@@ -18,7 +18,7 @@
 }
 
 .media-linebreak {
-  @apply lg:whitespace-nowrap sm:break-words;
+  @apply whitespace-nowrap ;
 }
 
 .box-shadow {
@@ -34,7 +34,7 @@
 }
 
 .second-infobox {
-  @apply lg:w-[45%] h-full flex flex-col sm:items-center sm:justify-center lg:items-start  lg:justify-start sm:w-full;
+  @apply lg:w-[45%] h-full flex flex-col sm:items-center sm:justify-center lg:items-start  lg:justify-center sm:w-full;
 }
 
 @media all and (min-width: 1024px) {
