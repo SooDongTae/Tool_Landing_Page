@@ -15,9 +15,9 @@ const Page_three = () => {
           <div className="w-full md:w-[45%] h-full bg-[white] shadow-[0px_4px_30px_rgba(0,_0,_0,_0.25)]"></div>
           <div className="w-full md:w-[45%] h-3/4 flex flex-col items-center justify-center">
             <h2 className="w-full text-center md:text-left whitespace-nowrap text-[2rem]">
-              빠른 공동구매 참여로,
+              쉬운 공동구매 등록으로,
               <br />
-              공동구매에 편리함을
+              사람을 모집 할 수 있어요
             </h2>
             <p className="w-full text-center md:text-left whitespace-nowrap text-[1.5rem]  text-textGray">
               사고싶은 물건이 있다면,
@@ -36,7 +36,7 @@ const Page_three = () => {
             <p className="w-full text-center md:text-left whitespace-nowrap text-[1.5rem]  text-textGray">
               사고싶은 물건이 있다면,
               <br />
-              Tool에서 사람들을 찾아보세요.
+              Tool과 함께 공동구매에 참여하세요.
             </p>
           </div>
           <div className="w-full md:w-[45%] h-full bg-[white] shadow-[0px_4px_30px_rgba(0,_0,_0,_0.25)]"></div>
