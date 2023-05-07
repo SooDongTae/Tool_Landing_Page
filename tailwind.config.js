@@ -6,12 +6,20 @@ module.exports = {
     "./src/components/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    keyframes: {
+      wheel: {
+        to: {
+          opacity: "0",
+          top: "3rem",
+        },
+      },
+    },
+    animation: {
+      wheel: "wheel 2s infinite",
+    },
     extend: {
       fontFamily: {
         sans: ["GmarketSansMedium"],
-      },
-      screens: {
-        sm: "300px",
       },
     },
     colors: {
