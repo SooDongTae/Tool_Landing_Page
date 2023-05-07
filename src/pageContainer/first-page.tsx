@@ -20,12 +20,12 @@ export const FirstPage = () => {
         ></div>
         <div
           data-aos="fade-up"
-          data-aos-delay="200"
+          data-aos-delay="250"
           className="bg-[white] shadow-[0px_4px_30px_rgba(0,_0,_0,_0.25)]"
         ></div>
         <div
           data-aos="fade-up"
-          data-aos-delay="300"
+          data-aos-delay="400"
           className="bg-[white] shadow-[0px_4px_30px_rgba(0,_0,_0,_0.25)]"
         ></div>
       </div>
