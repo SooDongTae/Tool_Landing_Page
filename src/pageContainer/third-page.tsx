@@ -5,7 +5,7 @@ import createImg from "../../public/assets/images/createImg.png";
 const Page_three = () => {
   return (
     <div className="w-full h-screen bg-bgBlue flex flex-col items-center">
-      <h1 className="w-[70%] text-black text-[1.8rem] md:text-4xl lg:text-5xl pt-12 font-bold">
+      <h1 className="w-[70%] text-black text-[1.8rem] lg:text-5xl pt-12 font-bold">
         쉽고 빠르게
         <br /> 등록부터 참여까지
         <br /> 이런 <span className="text-green">공동구매</span> 해보셨나요?
