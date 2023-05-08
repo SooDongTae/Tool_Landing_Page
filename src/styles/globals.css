@@ -18,7 +18,7 @@
 }
 
 .media-linebreak {
-  @apply whitespace-nowrap ;
+  @apply whitespace-nowrap;
 }
 
 .box-shadow {
@@ -30,11 +30,11 @@
 }
 
 .second-imgbox {
-  @apply lg:w-[45%] lg:h-4/5 box-shadow sm:w-full sm:h-full;
+  @apply md:w-full md:h-full lg:w-[45%] lg:h-4/5 box-shadow;
 }
 
 .second-infobox {
-  @apply lg:w-[45%] h-full flex flex-col sm:items-center sm:justify-center lg:items-start  lg:justify-center sm:w-full;
+  @apply lg:w-[45%] h-full flex flex-col md:items-center md:justify-center lg:items-start  lg:justify-center md:w-full;
 }
 
 @media all and (min-width: 1024px) {
