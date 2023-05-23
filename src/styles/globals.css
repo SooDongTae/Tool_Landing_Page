@@ -30,7 +30,7 @@
 }
 
 .second-imgbox {
-  @apply md:w-full md:h-full lg:w-[45%] lg:h-4/5 box-shadow;
+  @apply  box-shadow;
 }
 
 .second-infobox {
