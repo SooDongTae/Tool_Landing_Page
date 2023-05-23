@@ -1,6 +1,6 @@
 export const Main = () => {
   return (
-    <div className="w-screen h-screen flex justify-center items-center relative">
+    <div className="h-screen flex justify-center items-center relative">
       <div
         data-aos="fade-down"
         data-aos-once="true"
